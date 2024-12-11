@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+	<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="MockData" msdata:UseCurrentLocale="true">
+			<xs:complexType>
+				<xs:choice minOccurs="0" maxOccurs="unbounded">
+					<xs:element name="MockData">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="Id" msdata:DataType="System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e" type="xs:string" minOccurs="0" />
+								<xs:element name="Name" type="xs:string" minOccurs="0" />
+								<xs:element name="Position" type="xs:string" minOccurs="0" />
+								<xs:element name="Salary" type="xs:decimal" minOccurs="0" />
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+				</xs:choice>
+			</xs:complexType>
+		</xs:element>
+	</xs:schema>
+	<MockData>
+		<Id>c9d9f91e-8091-4d36-931b-f85bdc5896d2</Id>
+		<Name>Jhon Grajales</Name>
+		<Position>Software Engineer</Position>
+		<Salary>7000</Salary>
+	</MockData>
+	<MockData>
+		<Id>7f53e1aa-97f6-4a9f-a93b-d93c8b3ea7e1</Id>
+		<Name>Jane Smith</Name>
+		<Position>Project Manager</Position>
+		<Salary>8500</Salary>
+	</MockData>
+</NewDataSet>

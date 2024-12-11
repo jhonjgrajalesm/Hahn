@@ -1,0 +1,6 @@
+@HahnTest.Server_HostAddress = http://localhost:5160
+
+GET {{HahnTest.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
